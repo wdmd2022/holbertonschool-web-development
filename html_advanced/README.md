@@ -17,7 +17,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 The heart of the project is recreating a given website wireframe with the following design:
 
-![page structure map](https://github.com/wdmd2022/holbertonschool-web-development/html_advanced/blob/master/page_structure.jpg?raw=true)
+![page structure map](https://github.com/wdmd2022/holbertonschool-web-development/blob/f61e085907c9ec3a797b735d7623a1f8836b9830/html_advanced/page_structure.jpg?raw=true)
 
 Requirements include:
 - All your files should end with a new line
