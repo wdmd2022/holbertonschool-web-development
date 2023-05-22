@@ -3,9 +3,10 @@
 
 Get ready for a knock-your-socks-off foray into the wild world of plain HTML!
 
+## purpose
 The tasks in this project are designed with the following objectives in mind:
 
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+You are expected to be able to explain to anyone, without the help of Google:
 
 - What is HTML
 - How to create an HTML page from a wireframe
@@ -19,6 +20,7 @@ The heart of the project is recreating a given website wireframe with the follow
 
 ![page structure map](https://github.com/wdmd2022/holbertonschool-web-development/blob/f61e085907c9ec3a797b735d7623a1f8836b9830/html_advanced/page_structure.jpg?raw=true)
 
+## requirements
 Requirements include:
 - All your files should end with a new line
 - A README.md file, at the root of the folder of the project is mandatory
