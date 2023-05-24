@@ -1,1 +1,775 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("/assets/fonts/source-sans-pro/SourceSansPro-Regular.otf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("assets/fonts/source-sans-pro/SourceSansPro-It.otf");
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("assets/fonts/source-sans-pro/SourceSansPro-Black.otf");
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("assets/fonts/source-sans-pro/SourceSansPro-Bold.otf");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("assets/fonts/source-sans-pro/SourceSansPro-Semibold.otf");
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("assets/fonts/source-sans-pro/SourceSansPro-Light.otf");
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+}
 
+/*
+main {
+    background-image: url(/assets/images/background.png);
+    background-size: cover;
+    position: absolute;
+    width: 1440px;
+    height: 1093px;
+    left: 0px;
+    top: 0px;
+}*/
+
+/*
+* {
+    font-family: "Source Sans Pro", sans-serif;
+}
+*/
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+body {
+    background-image: url(/assets/images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 1440px;
+    height: 1093px;
+    left: 0px;
+    top: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    width: 1103.41px;
+    height: 29.46px;
+    left: 171.59px;
+    top: 35.02px;
+}
+/*
+.logo {
+    position: absolute;
+    width: 167.02px;
+    height: 29.46px;
+    left: 171.59px;
+    top: 35.02px;
+}
+*/
+/* menu */
+.menu {
+    position: absolute;
+    width: 234px;
+    height: 15px;
+    left: 1041px;
+    top: 37px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.courses {
+    position: absolute;
+    height: 15px;
+    left: 0%;
+    right: 78.63%;
+    top: calc(50% - 15px/2);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.pricing {
+    position: absolute;
+    height: 15px;
+    left: 43.59%;
+    right: 37.18%;
+    top: calc(50% - 15px/2);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.login {
+    position: absolute;
+    height: 15px;
+    left: 85.47%;
+    right: 0%;
+    top: calc(50% - 15px/2);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+/* .smilegrinlaugh {
+    display:flex;
+} */
+.smile {
+    position: absolute;
+    height: 20px;
+    left: 41.18%;
+    right: 55.21%;
+    top: calc(50% - 20px/2 - 175.5px);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.grin {
+    position: absolute;
+    height: 20px;
+    left: 48.89%;
+    right: 48.61%;
+    top: calc(50% - 20px/2 - 175.5px);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.laugh {
+    position: absolute;
+    height: 20px;
+    left: 55.35%;
+    right: 41.25%;
+    top: calc(50% - 20px/2 - 175.5px);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Button */
+.register {
+    position: absolute;
+    left: 44.38%;
+    right: 44.38%;
+    top: 38.33%;
+    bottom: 57.64%;
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+    background: #C271FF;
+    border-radius: 22px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    }
+
+/* background */
+
+
+.banner {
+    position: absolute;
+    width: 1440px;
+    height: 392px;
+    left: -1px;
+    top: 1093px;
+    background: #C271FF;
+    /* z-index: 1; */
+}
+
+.testimonial {
+    position: absolute;
+    width: 943px;
+    height: 160px;
+    left: 259px;
+    top: 1201px;
+    /* z-index: 2; */
+}
+
+/* .testimonialtext {
+    position: absolute;
+    width: 730px;
+    height: 158px;
+    left: 472px;
+    top: 1203px;
+} */
+.testimonialtext {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 56.96%;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    /* or 153% */
+    color: #FFFFFF;
+}
+
+/* get schooled */
+.getschooled {
+    position: absolute;
+    height: 151px;
+    left: 26.18%;
+    right: 26.32%;
+    top: calc(50% - 151px/2 - 251px);
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 151px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.learn {
+    position: absolute;
+    height: 40px;
+    left: 41.94%;
+    right: 39.93%;
+    top: calc(50% - 40px/2 + 104.5px);
+}
+.lurn {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #C271FF;
+}
+.fromthepros {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* pros */
+.pros {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 1009px;
+    height: 237px;
+    left: 217px;
+    top: 758px;
+
+
+}
+.probox {
+    width: 150px;
+    height: 237px;
+}
+.proname {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    color: #FFFFFF;
+}
+.prohonors {
+    font-family: 'Source Sans Pro';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* part_2_tutorials */
+
+.tutorials {
+    position: absolute;
+    width: 1228px;
+    height: 450px;
+    left: 106px;
+    top: 1572px;
+}
+.mostpopular {
+    position: absolute;
+    height: 40px;
+    left: 39.25%;
+    right: 36.81%;
+    top: calc(50% - 40px/2 - 205px);
+    text-align: center;
+}
+.mostpopular-textsides {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    color: #071629;
+}
+.mostpopular-textbold {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #C271FF;
+}
+
+.tuto_1 {
+    position: absolute;
+    left: 4.72%;
+    right: 74.51%;
+    top: 25.56%;
+    bottom: 0%;
+}
+.tuto_2 {
+    position: absolute;
+    left: 28.01%;
+    right: 51.22%;
+    top: 25.56%;
+    bottom: 0%;
+}
+.tuto_3 {
+    position: absolute;
+    left: 51.22%;
+    right: 28.01%;
+    top: 25.56%;
+    bottom: 0%;
+}
+.tuto_4 {
+    position: absolute;
+    left: 74.43%;
+    right: 4.8%;
+    top: 25.56%;
+    bottom: 0%; 
+}
+
+.tutorialname {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #071629;
+}
+
+#t1name {
+    position: absolute;
+    height: 20px;
+    left: 5.1%;
+    right: 53.33%;
+    top: calc(50% - 20px/2 + 14.5px);
+}
+
+#t2name {
+    position: absolute;
+    height: 20px;
+    left: 5.1%;
+    right: 67.45%;
+    top: calc(50% - 20px/2 + 14.5px);
+}
+
+#t3name {
+    position: absolute;
+    height: 20px;
+    left: 5.1%;
+    right: 56.86%;
+    top: calc(50% - 20px/2 + 14.5px);
+}
+#t4name {
+    position: absolute;
+    height: 20px;
+    left: 5.1%;
+    right: 60%;
+    top: calc(50% - 20px/2 + 14.5px);
+}
+
+
+.tutorialdescription {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: rgba(7, 22, 41, 0.501584);
+    position: absolute;
+    height: 48px;
+    left: 5.1%;
+    right: 0%;
+    top: calc(50% - 48px/2 + 56.1px); 
+}
+
+.circularavatar {
+    border-radius: 50%;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 13px;
+    top: 261px;
+}
+
+.authorname {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+    /* identical to box height, or 193% */
+    color: #C271FF;
+    position: absolute;
+    height: 27px;
+    left: 21.96%;
+    right: 44.31%;
+    top: calc(50% - 27px/2 + 109px);
+}
+
+.rating {
+    position: absolute;
+    width: 107px;
+    height: 15px;
+    left: 13px;
+    top: 305px; 
+}
+
+.vidlength {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+    /* identical to box height, or 193% */
+    text-align: right;
+    color: #C271FF;
+    position: absolute;
+    height: 27px;
+    left: 78.04%;
+    right: 8.63%;
+    top: calc(50% - 27px/2 + 143px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* part_3_free_membership */
+.membership {
+    position: absolute;
+    width: 1440px;
+    height: 502px;
+    left: 0px;
+    top: 2109px;
+    background: #071629;
+}
+
+.membershiptitle {
+    position: absolute;
+    height: 40px;
+    left: 42.85%;
+    right: 40.9%;
+    top: calc(50% - 40px/2 - 161px);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-size: 32px;
+    line-height: 40px;
+}
+.freetext {
+    font-weight: 700;
+    color: #C271FF;
+}
+.membershiptext {
+    font-weight: 300;
+    color: #FFFFFF;
+}
+.benefits {
+    position: absolute;
+    top: 33.47%;
+    bottom: 36.06%;
+}
+#ben1 {
+    left: 11.39%;
+    right: 70.76%;
+}
+#ben2 {
+    left: 31.11%;
+    right: 51.04%;
+}
+#ben3 {
+    left: 50.9%;
+    right: 31.25%;
+}
+#ben4 {
+    left: 70.76%;
+    right: 11.39%;
+}
+.benefitsmiley {
+    position: absolute;
+    width: 43.67px;
+    height: 35.35px;
+    left: 106.71px;
+    top: 0.03px;
+}
+.benefitname {
+    position: absolute;
+    height: 26px;
+    left: 0.19%;
+    right: 0.19%;
+    top: calc(50% - 26px/2 - 1.5px);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    text-align: center;
+    color: #FFFFFF;
+}
+.benefitdescription {
+    position: absolute;
+    height: 52px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* or 186% */
+    text-align: center;
+    color: #FFFFFF;
+    top: calc(50% - 52px/2 + 50.5px);
+}
+#bendesc1 {
+    left: 8.75%;
+    right: 8.75%;
+}
+#bendesc2 {
+    left: 7%;
+    right: 7%;
+}
+#bendesc3 {
+    left: 8.17%;
+    right: 8.17%;
+}
+#bendesc4 {
+    left: 8.17%;
+    right: 8.17%;
+}
+
+.membershipbutton {
+    position: absolute;
+    left: 44.38%;
+    right: 44.38%;
+    top: 80.88%;
+    bottom: 10.36%;
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+    position: absolute;
+    background: #C271FF;
+    border-radius: 22px;
+}
+.regbuttontext {
+    height: 18px;
+    left: 13.27%;
+    right: 12.04%;
+    top: calc(50% - 18px/2);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* part_4_FAQ */
+.faq {
+    position: absolute;
+    width: 920px;
+    height: 707px;
+    left: 249px;
+    top: 2678px;
+    display: flex;
+}
+
+.faqtitle {
+    position: absolute;
+    height: 75px;
+    left: 44.24%;
+    right: 40.98%;
+    top: calc(50% - 75px/2 - 316px);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 75px;
+    text-align: center;
+    color: #071629;
+}
+
+#q1 {
+    position: absolute;
+    left: 0%;
+    right: 61.96%;
+    top: 21.07%;
+    bottom: 44.7%;
+}
+#q2 {
+    position: absolute;
+    left: 61.96%;
+    right: 0%;
+    top: 21.07%;
+    bottom: 44.7%;
+}
+#q3 {
+    position: absolute;
+    left: 0%;
+    right: 61.96%;
+    top: 65.77%;
+    bottom: 0%;
+}
+#q4 {
+    position: absolute;
+    left: 61.96%;
+    right: 0%;
+    top: 65.77%;
+    bottom: 0%;
+}
+.qtitle {
+    position: absolute;
+    height: 20px;
+    left: 0%;
+    right: 58.57%;
+    top: calc(50% - 20px/2 - 111px);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #071629;
+}
+.qtext {
+    position: absolute;
+    height: 192px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 192px/2 + 25px);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: rgba(7, 22, 41, 0.501584);
+}
+
+/* footer */
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 249px;
+    left: 0px;
+    top: 3469px;
+    background: #071629;
+}
+.footerlogo {
+    position: absolute;
+    left: 11.46%;
+    right: 76.81%;
+    top: 38.15%;
+    bottom: 49.8%;
+}
+.footericons {
+    position: absolute;
+    width: 130px;
+    height: 30px;
+    left: 1070px;
+    top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright {
+    position: absolute;
+    height: 15px;
+    left: 46.67%;
+    right: 46.67%;
+    top: calc(50% - 15px/2 + 78px);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.35;
+}
