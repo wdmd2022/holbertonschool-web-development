@@ -414,6 +414,11 @@ header {
     top: 25.56%;
     bottom: 0%;
 }
+.play {
+    position: absolute;
+    left: 35%;
+    top: 15%;
+}
 .tuto_2 {
     position: absolute;
     left: 28.01%;
