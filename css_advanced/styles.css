@@ -235,8 +235,8 @@ header {
     width: 943px;
     height: 160px;
     left: 259px;
-    top: 1201px;
-    /* z-index: 2; */
+    top: 101px;
+    z-index: 2;
 }
 
 /* .testimonialtext {
@@ -244,11 +244,11 @@ header {
     width: 730px;
     height: 158px;
     left: 472px;
-    top: 1203px;
+    top: 103px;
 } */
 .testimonialtext {
     position: absolute;
-    left: 0%;
+    left: 300px;
     right: 0%;
     top: 0%;
     bottom: 56.96%;
